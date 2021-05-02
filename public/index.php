@@ -15,8 +15,8 @@ if (strpos($_SERVER['SERVER_NAME'], 'localhost') !== false
     $vendors =  dirname(__DIR__).'/vendor/autoload.php';
     $envs = dirname(__DIR__).'/.env';
 } else {
-    $vendors = dirname( __DIR__ ) . '/httpd.private/salve/current/vendor/autoload.php';
-    $envs    = dirname( __DIR__ ) . '/httpd.private/salve/current/.env';
+    $vendors = dirname( __DIR__ ) . '/httpd.private/bolt/current/vendor/autoload.php';
+    $envs    = dirname( __DIR__ ) . '/httpd.private/bolt/current/.env';
 }
 
 require $vendors;
